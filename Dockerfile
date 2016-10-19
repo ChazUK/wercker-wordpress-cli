@@ -3,6 +3,7 @@ MAINTAINER Charlie Francis <charliefrancis@gmail.com>
 
 # Install CURL & PHP
 RUN apk --update add \
+    bash \
     curl \
     nodejs \
     php5-cli php5-phar \
